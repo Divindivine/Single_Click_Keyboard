@@ -38,9 +38,10 @@ body{
 }
 
 #text_area{
-    border: 3px solid black;
+    border: solid black;
+    border-width: 1px;
     border-radius: 15px;
-    height: 40vh;
+    height: 70vh;
     padding: 5px;
     outline: none;
     font-size: 20px;
@@ -53,12 +54,13 @@ body{
     gap: 10px;
 }
 
-.sendAddress{
+#sendAddress{
     display: flex;
     width: 90%;
-    border: 3px solid black;
+    border: solid black;
     border-radius: 10px;
     padding-left: 5px;
+    border-width: 1px;
 }
 
 #sendto{
@@ -73,21 +75,22 @@ body{
     
 }
 
-.send_button_div{
-    border: 3px solid black;
+#send_button_div{
+    border: solid black;
     height: 35px;
     width: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-}
+    border-width: 1px;
+}   
 
 #send_button{
     height: 25px;
 }
 
-.keyboard{
+#keyboard{
     width: 100%;
     border-radius: 15px;
     background: gray;
@@ -95,6 +98,7 @@ body{
     min-width: 406px;
     max-width: 448px;
     margin: 0 auto;
+    display: none;
 }
 
 .keyboard_inner{
@@ -120,5 +124,7 @@ body{
 .char{
     padding: 5px 10px;
     border-radius: 5px;
-    border: 0px solid black;
+    border: solid black;
+    border-width: 0px;
 }
+
